@@ -36,6 +36,7 @@ const { karyawanRouters } = require('./routers')
 app.use('/karyawan', karyawanRouters)
 
 //
+//http method can be not related
 //GET DATA 
 // app.get('/karyawan', (req,res) => {
 //     let scriptQuery = `Select * from karyawan` //script query in mysql
